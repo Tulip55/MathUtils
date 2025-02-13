@@ -28,5 +28,24 @@ class CalculatorTest {
 		
 	}
 
+
+	@Test
+	public void multiplicationTest() {
+		Calculator test = new Calculator();
+		int result = test.multiply(10, 7);
+		assertEquals(70, result);
+	}
+	
+	@Test
+	public void divisionTest() {
+		Calculator test = new Calculator();
+		double result = test.divide(60, 6);
+		assertEquals(10, result);
+	}
+
 }
+
+
+
+
 
